@@ -49,4 +49,4 @@ def laco_aninhado():
         for nota in notas:
             print(f"nota do aluno: {nota}")
 
-laco_aninhado()
+#laco_aninhado()
