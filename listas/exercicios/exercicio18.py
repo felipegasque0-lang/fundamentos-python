@@ -9,9 +9,9 @@ def analisar_temperaturas(temperaturas):
 
 temperaturas = [25, 30, 22, 28, 26]
 
-resultado = analisar_temperaturas(temperaturas)
+quantidade, soma, media, ordenadas = analisar_temperaturas(temperaturas)
 
-print(f"Quantidade: {resultado[0]}")
-print(f"Soma: {resultado[1]}")
-print(f"Média: {resultado[2]}")
-print(f"Temperaturas ordenadas: {resultado[3]}")
+print(f"Quantidade: {quantidade}")
+print(f"Soma: {soma}")
+print(f"Média: {media}")
+print(f"Temperaturas ordenadas: {ordenadas}")
